@@ -1,4 +1,4 @@
-# translator-api
+# tr-en-translator
 
 A Java library to translate words and phrases between Turkish and English
 

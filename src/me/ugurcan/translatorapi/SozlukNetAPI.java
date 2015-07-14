@@ -4,7 +4,7 @@ import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
 import org.jsoup.select.Elements;
 
-public class SozlukNetAPI extends DictionaryAPI {
+public class SozlukNetAPI extends Dictionary {
 
     private static final String apiName = "SozlukNet";
 

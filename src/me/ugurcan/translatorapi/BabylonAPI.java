@@ -5,7 +5,7 @@ import org.jsoup.nodes.Document;
 import org.jsoup.nodes.Element;
 import org.jsoup.select.Elements;
 
-public class BabylonAPI extends DictionaryAPI {
+public class BabylonAPI extends Dictionary {
 
     private static final String apiName = "Babylon";
 

@@ -5,7 +5,7 @@ import org.jsoup.nodes.Document;
 import org.jsoup.nodes.Element;
 import org.jsoup.select.Elements;
 
-public class ZarganAPI extends TranslatorAPI {
+public class ZarganAPI extends Translator {
 
     private static final String apiName = "Zargan";
 
