@@ -1,4 +1,4 @@
-package me.ugurcan.translatorapi;
+package me.ugurcan.trentranslator;
 
 public abstract class Dictionary {
 

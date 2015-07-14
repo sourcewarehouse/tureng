@@ -1,4 +1,4 @@
-package me.ugurcan.translatorapi;
+package me.ugurcan.trentranslator;
 
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;

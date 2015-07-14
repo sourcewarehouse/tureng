@@ -1,12 +1,12 @@
 package me.ugurcan.test;
 
-import me.ugurcan.translatorapi.BabylonAPI;
-import me.ugurcan.translatorapi.Dictionary;
-import me.ugurcan.translatorapi.Results;
-import me.ugurcan.translatorapi.SozlukNetAPI;
-import me.ugurcan.translatorapi.Translator;
-import me.ugurcan.translatorapi.TurengAPI;
-import me.ugurcan.translatorapi.ZarganAPI;
+import me.ugurcan.trentranslator.BabylonAPI;
+import me.ugurcan.trentranslator.Dictionary;
+import me.ugurcan.trentranslator.Results;
+import me.ugurcan.trentranslator.SozlukNetAPI;
+import me.ugurcan.trentranslator.Translator;
+import me.ugurcan.trentranslator.TurengAPI;
+import me.ugurcan.trentranslator.ZarganAPI;
 
 public class Test {
 
