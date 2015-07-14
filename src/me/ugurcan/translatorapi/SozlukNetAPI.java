@@ -1,10 +1,10 @@
-package me.ugurcan.dictionaryapi;
+package me.ugurcan.translatorapi;
 
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
 import org.jsoup.select.Elements;
 
-public class SozlukNetAPI extends MonolingualDictAPI {
+public class SozlukNetAPI extends DictionaryAPI {
 
     private static final String apiName = "SozlukNet";
 

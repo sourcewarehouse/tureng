@@ -1,4 +1,4 @@
-package me.ugurcan.dictionaryapi;
+package me.ugurcan.translatorapi;
 
 public class Result {
 

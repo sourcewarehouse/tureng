@@ -1,11 +1,11 @@
-package me.ugurcan.dictionaryapi;
+package me.ugurcan.translatorapi;
 
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
 import org.jsoup.nodes.Element;
 import org.jsoup.select.Elements;
 
-public class ZarganAPI extends BilingualDictAPI {
+public class ZarganAPI extends TranslatorAPI {
 
     private static final String apiName = "Zargan";
 

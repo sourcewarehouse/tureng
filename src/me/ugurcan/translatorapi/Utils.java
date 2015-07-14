@@ -1,4 +1,4 @@
-package me.ugurcan.dictionaryapi;
+package me.ugurcan.translatorapi;
 
 import java.util.Locale;
 

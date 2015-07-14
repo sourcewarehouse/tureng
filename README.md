@@ -1,6 +1,6 @@
-## DictionaryAPI
+# translator-api
 
-Java API for Turkish <-> English, English -> English, and Turkish -> Turkish dictionary
+A Java library to translate words and phrases between Turkish and English
 
 * `en-tr` and `tr-en` translations are retrieved from [*Tureng*](http://tureng.com/) and [*Zargan*](http://www2.zargan.com/).
 * `en-en` definitions are retrieved from [*Sozluk.Net*](http://www.sozluk.net/) and [*Babylon*](http://www.babylon.com/).
@@ -8,12 +8,12 @@ Java API for Turkish <-> English, English -> English, and Turkish -> Turkish dic
 
 **How to use:**
 ```java
-BilingualDictAPI tureng = new TurengAPI();
+TranslatorAPI tureng = new TurengAPI();
 // input can be in Turkish or English
 Results results = tureng.translate("spit out");
 results.print();
 
-BilingualDictAPI zargan = new ZarganAPI();
+TranslatorAPI zargan = new ZarganAPI();
 // input can be in Turkish or English
 results = zargan.translate("süpürmek");
 results.print();

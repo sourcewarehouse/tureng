@@ -1,11 +1,11 @@
-package me.ugurcan.dictionaryapi;
+package me.ugurcan.translatorapi;
 
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
 import org.jsoup.nodes.Element;
 import org.jsoup.select.Elements;
 
-public class BabylonAPI extends MonolingualDictAPI {
+public class BabylonAPI extends DictionaryAPI {
 
     private static final String apiName = "Babylon";
 
