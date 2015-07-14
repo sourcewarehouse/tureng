@@ -9,23 +9,19 @@ A Java library to translate words and phrases between Turkish and English
 **How to use:**
 ```java
 Translator tureng = new TurengAPI();
-// input can be in Turkish or English
-Results results = tureng.translate("spit out");
+Results results = tureng.translate("spit out"); // input can be in Turkish or English
 results.print();
 
 Translator zargan = new ZarganAPI();
-// input can be in Turkish or English
-results = zargan.translate("süpürmek");
+results = zargan.translate("süpürmek"); // input can be in Turkish or English
 results.print();
 
 Dictionary sozlukNet = new SozlukNetAPI();
-// input can be in Turkish or English
-results = sozlukNet.getDefinitionOf("pay");
+results = sozlukNet.getDefinitionOf("pay"); // input can be in Turkish or English
 results.print();
 
 Dictionary babylon = new BabylonAPI();
-// input can only be in English
-results = babylon.getDefinitionOf("get on");
+results = babylon.getDefinitionOf("get on"); // input can only be in English
 results.print();
 ```
 
