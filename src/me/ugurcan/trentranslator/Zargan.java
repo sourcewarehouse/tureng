@@ -5,11 +5,11 @@ import org.jsoup.nodes.Document;
 import org.jsoup.nodes.Element;
 import org.jsoup.select.Elements;
 
-public class ZarganAPI extends Translator {
+public class Zargan extends Translator {
 
     private static final String apiName = "Zargan";
 
-    public ZarganAPI() {
+    public Zargan() {
 
     }
 

@@ -4,11 +4,11 @@ import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
 import org.jsoup.select.Elements;
 
-public class SozlukNetAPI extends Dictionary {
+public class SozlukNet extends Dictionary {
 
     private static final String apiName = "SozlukNet";
 
-    public SozlukNetAPI() {
+    public SozlukNet() {
 
     }
 
