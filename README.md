@@ -18,12 +18,12 @@ TranslatorAPI zargan = new ZarganAPI();
 results = zargan.translate("süpürmek");
 results.print();
 
-MonolingualDictAPI sozlukNet = new SozlukNetAPI();
+DictionaryAPI sozlukNet = new SozlukNetAPI();
 // input can be in Turkish or English
 results = sozlukNet.getDefinitionOf("pay");
 results.print();
 
-MonolingualDictAPI babylon = new BabylonAPI();
+DictionaryAPI babylon = new BabylonAPI();
 // input can only be in English
 results = babylon.getDefinitionOf("get on");
 results.print();
