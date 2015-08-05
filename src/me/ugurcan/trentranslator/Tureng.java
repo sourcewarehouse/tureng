@@ -31,11 +31,11 @@ public class Tureng extends Translator {
                 if (element.select("td").size() < 2)
                     continue;
 
-                String sourceLang = element.select("td").get(3).attr("lang");
-                String source = element.select("td").get(3).select("a").text();
+                String sourceLang = element.select("td").get(2).attr("lang");
+                String source = element.select("td").get(2).select("a").text();
 
-                String translationLang = element.select("td").get(4).attr("lang");
-                String translation = element.select("td").get(4).select("a").text();
+                String translationLang = element.select("td").get(3).attr("lang");
+                String translation = element.select("td").get(3).select("a").text();
 
                 String lang2lang = sourceLang + "-" + translationLang;
                 String partOfSpeech = element.select("i").text();
