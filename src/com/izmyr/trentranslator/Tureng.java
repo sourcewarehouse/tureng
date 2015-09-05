@@ -1,4 +1,4 @@
-package me.ugurcan.trentranslator;
+package com.izmyr.trentranslator;
 
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
@@ -25,6 +25,7 @@ public class Tureng extends Translator {
         try {
 
             Document doc = Jsoup.connect("http://tureng.com/search/" + input).get();
+
             Elements elements = doc.getElementsByClass("searchResultsTable").select("tr");
 
             for (Element element : elements) {

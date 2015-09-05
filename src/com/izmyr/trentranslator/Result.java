@@ -1,4 +1,4 @@
-package me.ugurcan.trentranslator;
+package com.izmyr.trentranslator;
 
 public class Result {
 

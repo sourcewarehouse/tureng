@@ -1,19 +1,19 @@
-package me.ugurcan.test;
+package com.izmyr.test;
 
-import me.ugurcan.trentranslator.Babylon;
-import me.ugurcan.trentranslator.Dictionary;
-import me.ugurcan.trentranslator.Results;
-import me.ugurcan.trentranslator.SozlukNet;
-import me.ugurcan.trentranslator.Translator;
-import me.ugurcan.trentranslator.Tureng;
-import me.ugurcan.trentranslator.Zargan;
+import com.izmyr.trentranslator.Babylon;
+import com.izmyr.trentranslator.Dictionary;
+import com.izmyr.trentranslator.Translator;
+import com.izmyr.trentranslator.Zargan;
+import com.izmyr.trentranslator.Results;
+import com.izmyr.trentranslator.SozlukNet;
+import com.izmyr.trentranslator.Tureng;
 
 public class Test {
 
     public static void main(String[] args) {
 
         Translator tureng = new Tureng();
-        Results results = tureng.translate("spit out"); // input can be in Turkish or English
+        Results results = tureng.translate("zombie"); // input can be in Turkish or English
         results.print();
 
         Translator zargan = new Zargan();
