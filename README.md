@@ -12,7 +12,6 @@ Translator tureng = new Tureng();
 Results results = tureng.translate("spit out"); // input can be in Turkish or English
 results.print();
 ```
-
 **Output:**
 ```
 =============Tureng=============
@@ -36,7 +35,6 @@ Translator zargan = new Zargan();
 results = zargan.translate("süpürmek"); // input can be in Turkish or English
 results.print();
 ```
-
 **Output:**
 ```
 =============Zargan=============
@@ -57,7 +55,6 @@ Dictionary sozlukNet = new SozlukNet();
 results = sozlukNet.getDefinitionOf("pay"); // input can be in Turkish or English
 results.print();
 ```
-
 **Output:**
 ```
 =============SozlukNet=============
@@ -83,7 +80,6 @@ Dictionary babylon = new Babylon();
 results = babylon.getDefinitionOf("get on"); // input can only be in English
 results.print();
 ```
-
 **Output:**
 ```
 =============Babylon=============
