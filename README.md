@@ -6,22 +6,10 @@ A Java library to translate words and phrases between Turkish and English
 * `en-en` definitions are retrieved from [*Sozluk.Net*](http://www.sozluk.net/) and [*Babylon*](http://www.babylon.com/).
 * `tr-tr` definitions are retrieved from [*Sozluk.Net*](http://www.sozluk.net/).
 
-**How to use:**
+**How to use - Tureng:**
 ```java
 Translator tureng = new Tureng();
 Results results = tureng.translate("spit out"); // input can be in Turkish or English
-results.print();
-
-Translator zargan = new Zargan();
-results = zargan.translate("süpürmek"); // input can be in Turkish or English
-results.print();
-
-Dictionary sozlukNet = new SozlukNet();
-results = sozlukNet.getDefinitionOf("pay"); // input can be in Turkish or English
-results.print();
-
-Dictionary babylon = new Babylon();
-results = babylon.getDefinitionOf("get on"); // input can only be in English
 results.print();
 ```
 
@@ -40,6 +28,17 @@ en-tr:	spit (out) one's dummy -> (British Slang) öfke nöbetine girmek
 en-tr:	spit (out) one's dummy -> (British Slang) kendinden geçmek
 en-tr:	spit (out) one's dummy -> (British Slang) kriz geçirmek
 =============Tureng=============
+```
+
+**How to use - Zargan:**
+```java
+Translator zargan = new Zargan();
+results = zargan.translate("süpürmek"); // input can be in Turkish or English
+results.print();
+```
+
+**Output:**
+```
 =============Zargan=============
 tr-en:	süpürmek -> (Fiil) to sweep
 tr-en:	süpürmek -> (Fiil) to brush
@@ -50,6 +49,17 @@ tr-en:	bütün işleri süpürmek -> (Fiil) to make a clean sweep of it
 tr-en:	silip süpürmek -> (Fiil) to mop up profits
 tr-en:	silip süpürmek -> (Fiil) to mop up
 =============Zargan=============
+```
+
+**How to use - SozlukNet:**
+```java
+Dictionary sozlukNet = new SozlukNet();
+results = sozlukNet.getDefinitionOf("pay"); // input can be in Turkish or English
+results.print();
+```
+
+**Output:**
+```
 =============SozlukNet=============
 en-en:	Pay -> (v. t.) To cover, as bottom of a vessel, a seam, a spar, etc., with tar or pitch, or waterproof composition of tallow, resin, etc.; to smear.
 en-en:	Pay -> (v. t.) To satisfy, or content; specifically, to satisfy (another person) for service rendered, property delivered, etc.; to discharge one's obligation to; to make due return to; to compensate; to remunerate; to recompense; to requite; as, to pay workmen or servants.
@@ -65,6 +75,17 @@ tr-tr:	pay -> Birden fazla kişi arasinda bölüşülmüş bir bütünden, bu ki
 tr-tr:	pay -> Eşit bölüm
 tr-tr:	pay -> Bayagi kesirlerden birinin eşit parçalardan kaç tane alindigini gösteren sayi: paydanin üstüne yazilarak yatik bir çizgi ile ondan ayrılır
 =============SozlukNet=============
+```
+
+**How to use - Babylon:**
+```java
+Dictionary babylon = new Babylon();
+results = babylon.getDefinitionOf("get on"); // input can only be in English
+results.print();
+```
+
+**Output:**
+```
 =============Babylon=============
 en-en:	Get on -> embark
 en-en:	Get on -> enter a bus or train or plane (e.g. "She got on the bus about 40 minutes ago")
