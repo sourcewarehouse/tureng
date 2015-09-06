@@ -1,7 +1,7 @@
 <project>
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.izmyr</groupId>
-  <artifactId>tr-en-translator</artifactId>
+  <artifactId>tureng</artifactId>
   <version>1.0.0</version>
   <build>
     <sourceDirectory>src</sourceDirectory>

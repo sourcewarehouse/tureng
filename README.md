@@ -1,6 +1,6 @@
-# tr-en-translator
+# tureng
 
-A Java library to translate words and phrases between Turkish and English
+A Java API for the online Turkish-English translator "Tureng"
 
 * `en-tr` and `tr-en` translations are retrieved from [*Tureng*](http://tureng.com/) and [*Zargan*](http://www2.zargan.com/).
 * `en-en` definitions are retrieved from [*Sozluk.Net*](http://www.sozluk.net/) and [*Babylon*](http://www.babylon.com/).
