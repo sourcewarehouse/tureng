@@ -1,12 +1,8 @@
 # tureng
 
-A Java API for the online Turkish-English translator "Tureng"
+A Java API for the online Turkish-English translator [*"Tureng"*](http://tureng.com/)
 
-* `en-tr` and `tr-en` translations are retrieved from [*Tureng*](http://tureng.com/) and [*Zargan*](http://www2.zargan.com/).
-* `en-en` definitions are retrieved from [*Sozluk.Net*](http://www.sozluk.net/) and [*Babylon*](http://www.babylon.com/).
-* `tr-tr` definitions are retrieved from [*Sozluk.Net*](http://www.sozluk.net/).
-
-**How to use - Tureng:**
+**How to use:**
 ```java
 Translator tureng = new Tureng();
 Results results = tureng.translate("spit out"); // input can be in Turkish or English
