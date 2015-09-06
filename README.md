@@ -1,6 +1,6 @@
 # tureng
 
-A Java API for the online Turkish-English translator [*"Tureng"*](http://tureng.com/)
+A Java API for the online Turkish-English translator [*Tureng*](http://tureng.com/)
 
 **How to use:**
 ```java
