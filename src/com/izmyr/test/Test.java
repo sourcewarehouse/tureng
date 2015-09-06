@@ -16,7 +16,7 @@ public class Test {
         Results results = tureng.translate("spit out"); // input can be in Turkish or English
         results.print();
 
-        Translator zargan = new Zargan();
+        /*Translator zargan = new Zargan();
         results = zargan.translate("süpürmek"); // input can be in Turkish or English
         results.print();
 
@@ -26,7 +26,7 @@ public class Test {
 
         Dictionary babylon = new Babylon();
         results = babylon.getDefinitionOf("get on"); // input can only be in English
-        results.print();
+        results.print();*/
 
     }
 
